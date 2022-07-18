@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+#navbar {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color:cornflowerblue;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+}
+li{
+    display:inline-block;
+}
+/* Heading css */
+#showcase {
+    background: url(https://csharp-station.com/wp-content/uploads/2019/08/Person-coding-on-laptop.jpg) no-repeat center center/cover;
+    height: 91.7vh;
+}
+/* About session */
+
+.about-heading{
+    font-size:20px;
+}
+.about-content{
+    display:flex;
+}
+.photo{
+    border-radius: 50%;
+}
+.container{
+     font-size: 20px;
+     text-align: center;
+}
+.about-heading{
+    text-align: center;
+    color: springgreen;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.lead{
+    color: black;
+    font-size:25px;
+}
+/* skills session */
+#skills {
+    text-align: center;
+    padding: 5rem 0;
+    align-content: center;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 450px;
+    background-color: wheat;
+    height:300px;
+}
+/* Project Session */
+#Projects {
+    background: url(https://www.uschamberfoundation.org/sites/default/files/styles/detail_image800w/public/code%2C%20coder%2C%20coding%2C%20coffee%2C%20computer%2C%20copy%2C%20hands%2C%20js%2C%20keyboard%2C%20laptop%2C%20note%2C%20php%2C%20programmer%2C%20programming%2C%20writing%2C%20work%2C%20office.jpg?itok=Ba0HeGFQ) no-repeat center center/cover;
+    height: 100vh;
+}
+.text-primary{
+    color: crimson;
+    font-size: 45px;
+}
+.text-primary1{
+    color: crimson;
+    font-size: 25px;
+}
+/* Contact Session */
+/* #Contact .mail-icon {
+    font-size: 4rem;
+    background: #3693ff;
+    color: #fff;
+    display: inline-block;
+    
+    border-radius: 50%;
+    position: absolute;
+    top: -7%;
+    left: 45%;
+} */
+/* Container */
+
+div {
+    display: block;
+}
+
+form{
+    display: inline;
+    border-radius: 8px;
+    background-color:red;
+    box-shadow: black;
+    height: 240px;
+    border:2px;
+    border-color: rgb(168, 120, 30);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.box{
+    text-decoration: black;
+    color:beige;
+    font-size: 30px;
+}
+.bg-dark{
+    background-color: #3693ff;
+    text-align: center;
+    height:25px;
+    margin-top:10px;
+}
+.feature{
+    border-radius: 50%;
+    background-color: #3693ff;
+}
+.mail-icon{
+    border-radius: 50%;
+    background-color: blueviolet;
+    width: 100px;
+    margin-left: 150px;
+}
+.form-container{
+    width: 400px;
+    align-content: center;
+    margin-left:550px;
+
+}
+.head11{
+    font-weight: 800;
+    color:brown;
+    margin:10px;
+}
+
